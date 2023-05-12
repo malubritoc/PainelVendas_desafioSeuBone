@@ -31,6 +31,8 @@ class VendaController {
     }
 
     static async createSell (req, res) {
+        console.log('entrou')
+        console.log(req.body)
         const newSell = req.body
         try {
             const newCreatedSell = await database.Vendas.create(newSell)

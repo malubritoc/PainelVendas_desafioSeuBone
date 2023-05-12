@@ -25,8 +25,8 @@ module.exports = (sequelize, DataTypes) => {
     valor_frete: DataTypes.FLOAT,
     nome_produto: DataTypes.STRING,
     quantidade: DataTypes.INTEGER,
-    compensada: DataTypes.INTEGER
-  }, {
+    compensada: DataTypes.INTEGER,
+  },{
     sequelize,
     modelName: 'Vendas',
   });
